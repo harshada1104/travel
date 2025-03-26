@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: "Cinzel", serif;
+  background-color: #f0ebeb;
+}
+
+header {
+  margin-top: 3em;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#container2D canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#container3D canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#container3D {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(5, 228, 228);
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 6vh;
+  padding: 0 10vh;
+  background: rgba(255, 255, 255, 0.474);
+  backdrop-filter: blur(5px);
+  z-index: 20;
+}
+
+nav a,
+i {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #333;
+}
+
+.cntr-nav {
+  display: flex;
+  gap: 3vw;
+}
+
+nav i {
+  font-size: 0.4vw;
+  cursor: pointer;
+}
+
+.one,
+.two,
+.three,
+.four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* .one {
+  background-image: url("./EXPLORE THE WORLD WITH US/2.png");
+  background-size: cover;
+} */
+.one {
+  background-color: #90d4ff;
+}
+
+.two {
+  background-image: url("./EXPLORE THE WORLD WITH US/4.png");
+  background-size: cover;
+}
+
+.three {
+  background-color: #90d4ff;
+  background-color: linear-gradient(rgba(255, 255, 255, 0.955), #90d4ff);
+}
+
+.four {
+  background-image: url("./EXPLORE THE WORLD WITH US/2.png");
+  background-size: cover;
+}
+
+.one h1,
+.one h2,
+.one h3 {
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.one.scroll-out h1,
+.one.scroll-out h2,
+.one.scroll-out h3 {
+  transform: scale(0.5);
+  opacity: 0;
+}
+
+/* Travel Cards */
+.travel-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.travel-card:hover {
+  transform: scale(1.05);
+}
+
+.travel-card.right {
+  flex-direction: row;
+  text-align: left;
+}
+
+.travel-card.left {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.travel-card img {
+  width: 600px;
+  height: 400px;
+  border-radius: 1px;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.travel-card:hover img {
+  transform: scale(1.1);
+}
+
+.text1 {
+  max-width: 50%;
+  padding: 20px;
+}
+
+.text1 h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #1a38a4;
+}
+
+.text1 p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.5;
+}
+
+.text ul {
+  list-style: none;
+  padding: 0;
+}
+/* Container styling */
+.one {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Text styling */
+.text5,
+.text6,
+.text7 {
+  font-family: "Cinzel", serif;
+  padding: -2px;
+  margin: 0;
+}
+
+/* Different font weights and colors */
+.text5 {
+  margin-top: 6px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #003366; /* Dark Blue */
+}
+
+.text6 {
+  font-size: 360px;
+  font-weight: 800px;
+  color: #fdfdfd; /* Light Blue */
+}
+
+.text7 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #003366; /* Dark Blue */
+}
+
+.text ul li {
+  font-size: 1em;
+  margin: 5px 0;
+}
+.travel-card {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}

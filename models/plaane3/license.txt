@@ -1,0 +1,11 @@
+Model Information:
+* title:	Aeroplane
+* source:	https://sketchfab.com/3d-models/aeroplane-4eeef5e57f0b42a4ae14964d9360e016
+* author:	dhiren-sah (https://sketchfab.com/dhiren-sah)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Aeroplane" (https://sketchfab.com/3d-models/aeroplane-4eeef5e57f0b42a4ae14964d9360e016) by dhiren-sah (https://sketchfab.com/dhiren-sah) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
