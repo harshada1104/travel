@@ -46,7 +46,7 @@ document.getElementById("container3D").appendChild(rendererPlane1.domElement);
 // ✅ Load Models
 loader.load(`./models/${globeModel}/scene.gltf`, function (gltf) {
     globe = gltf.scene;
-    globe.scale.set(210, 210, 210);
+    globe.scale.set(210, 220, 210);
     globe.position.set(-300, 0, 0);
     sceneGlobe.add(globe);
 
